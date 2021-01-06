@@ -24,8 +24,8 @@ public class IndioTest
 	   System.setProperty("webdriver.gecko.driver", confg.path());
 	   driver = new FirefoxDriver();
 	   driver.get(confg.URL());
-	   driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-	   driver.quit();
+	   
+	   
 	 
 	   
 	   
